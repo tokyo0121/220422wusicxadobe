@@ -1,0 +1,25 @@
+@media all and (max-width: 480px){
+
+  body,html{
+    background-size: contain;
+    background-repeat: repeat;
+    background-image: url('./image/bg_mini.png');
+  }
+
+  .conteiner h1{
+    font-size: 60px;
+  }
+
+  .conteiner h2{
+    font-size: 40px;
+  }
+
+  table{
+    border-top: 7px double #fff;
+    border-bottom: 7px double #fff;
+  }
+
+  td{
+    width: 50%;
+  }
+}
